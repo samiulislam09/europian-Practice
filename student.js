@@ -23,7 +23,7 @@ var another = {
         religious_study: 65,
         science: 80
     }
-}
+};
 var element = {};
 element[2] = another;
 students.push(element);
@@ -38,10 +38,10 @@ var another = {
         religious_study: 65,
         science: 90
     }
-}
-var element = {}
-element[3] = another
-students.push(element)
+};
+var element = {};
+element[3] = another;
+students.push(element);
 
 
 // Adding fourth Student
@@ -54,10 +54,10 @@ var another = {
         religious_study: 75,
         science: 80
     }
-}
-var element = {}
-element[4] = another
-students.push(element)
+};
+var element = {};
+element[4] = another;
+students.push(element);
 
 // Adding fifth Student
 var another = {
@@ -69,11 +69,10 @@ var another = {
         religious_study: 30,
         science: 15
     }
-}
-var element = {}
-element[5] = another
-students.push(element)
-
+};
+var element = {};
+element[5] = another;
+students.push(element);
 
 // Adding sixth Student
 var another = {
@@ -149,7 +148,6 @@ var another = {
 var element = {};
 element[10] = another;
 students.push(element);
-
 
 var fail = [];
 var grade_a_plus = [];
