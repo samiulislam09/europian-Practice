@@ -185,8 +185,8 @@ for (var student of students) {
         }
     };
 };
-console.log(`${fail[0]} deleted`);
-console.log(`A+ = ${grade_a_plus[0]} , ${grade_a_plus[1]} , ${grade_a_plus[2]}`);
-console.log(`A = ${grade_a[0]} , ${grade_a[1]} , ${grade_a[2]}`);
-console.log(`B = `);
-console.log(`Others = ${others[0]} , ${others[1]} , ${others[2]}`)
+console.log(fail.join(',')+" deleted");
+console.log("A+ = "+grade_a_plus.join(', '));
+console.log("A = " + grade_a.join(', '));
+console.log("B = " + grade_b.join(', '));
+console.log("Others = " + others.join(', '))
